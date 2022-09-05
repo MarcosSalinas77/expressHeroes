@@ -8,10 +8,20 @@ app.listen(port, ()=>{
 })
 
 
+
 app.get("/babbage", (req,resp)=>{
     resp.sendFile(path.join(__dirname,"./views/babbage"))
 });
 
-app.get("/babbage", (req,resp)=>{
+app.get("/berners-lee", (req,resp)=>{
     resp.sendFile(path.join(__dirname,"./views/berners-lee"))
 });
+
+app.get('/turing', (requ, resp)=>{
+    resp.sendFile(path.join(__dirname, '/views/turing.html'));
+});
+
+app.get('/lovelace', (requ, resp)=>{
+    resp.sendFile(path.join(__dirname, '/views/lovelace.html'));
+});
+
