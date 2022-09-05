@@ -1,0 +1,25 @@
+{
+  "name": "expressheroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosSalinas77/expressHeroes.git"
+  },
+  "author": "Marcos Viera <marcos.cortazar@cencosud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosSalinas77/expressHeroes/issues"
+  },
+  "homepage": "https://github.com/MarcosSalinas77/expressHeroes#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
