@@ -1,0 +1,9 @@
+.site-footer{
+    text-align: center;
+}
+
+.site-footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding:0 5px;
+}
