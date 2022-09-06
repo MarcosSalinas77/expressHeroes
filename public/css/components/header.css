@@ -4,6 +4,19 @@ Celeste: #1259c3;
 Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a; */
+.site-header__logo {
+  width: 25%;
+}
 
+.site-header__nav {
+  display: none;
+}
 
-
+@media (min-width: 361px) {
+  .site-header__nav {
+    display: inline-block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
