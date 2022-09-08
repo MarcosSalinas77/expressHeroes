@@ -1,0 +1,81 @@
+.main-registro {
+  display: flex;
+  justify-content: center;
+}
+
+.form-registro {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgb(100, 100, 100);
+}
+
+.form-registro form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-registro fieldset {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.perfil-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.main-registro input {
+  padding: 8px;
+}
+
+.categorias-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 38%;
+  gap: 5px;
+}
+
+.form-registro__buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  width: 143px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(166, 166, 166, 0.758);
+}
+
+.btn-submit {
+  background-color: var(--verde);
+}
+
+.btn-reset {
+  background-color: var(--gris-oscuro);
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: rgb(34, 143, 34);
+  box-shadow: none;
+}
+
+.btn-reset:hover {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  box-shadow: none;
+}

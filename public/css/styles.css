@@ -2,4 +2,5 @@
 @import './pages/home.css';
 @import './components/header.css';
 @import './components/footer.css';
-@import './components/productCard.css'
+@import './components/productCard.css';
+@import './pages/register.css';
