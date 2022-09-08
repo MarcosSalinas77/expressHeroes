@@ -1,0 +1,25 @@
+.home-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.home-main__section-title {
+  font-size: 24px;
+  margin: 15px 0 15px 0;
+}
+
+.home-main__section-articles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+@media (min-width:769px) {
+    /* .home-main__product {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } */
+  }

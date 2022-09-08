@@ -1,165 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
- 
-    <!-- Fontawesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    
-    <!-- CSS Style -->
-    <link rel="stylesheet" href="/css/styles.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
 
-    <header class="site-header">
-      <a href="#">
-        <img 
-          src="./img/logo-mercado-liebre.svg"
-          alt="Es el logo de la empresa mercado liebre"
-          class="site-header__logo"
-          />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-row">
+      <a href="#" class="site-header__logo">
+        <img src="./img/logo-mercado-liebre.svg" alt="Es el logo de la empresa mercado liebre" />
       </a>
-      <input type="text" placeholder=" buscar " class="site-header__search"/>
-      <p>Comprá en cuotas y sin tarjeta de crédito</p>
-      
-      <div>
-        <nav class="site-header__nav">
-          <ul>
-            <li><a href="#"> Ofertas</a></li>
-            <li><a href="#"> Tiendas Oficiales</a></li>
-            <li><a href="#"> Vender </a></li>
-            <li><a href="#"> Ayuda </a></li>
-            <li><a href="#"> Crea tu cuenta</a></li>
-            <li><a href="#"> Ingresar </a></li>
-            <li><a href="#"> Mis Compras </a></li>
-          </ul>
-        </nav>
-        <div class="burger-menu">
-          <i class="fas fa-bars"></i>
+      <input type="text" placeholder="Buscar productos, marcas y mas" class="site-header__search" />
+      <p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+    </div>
+    <div class="header-row-menu">
+      <nav class="site-header__navegation">
+        <ul>
+          <li><a href="#"> Ofertas </a></li>
+          <li><a href="#"> Tiendas Oficiales </a></li>
+          <li><a href="#"> Vender </a></li>
+          <li><a href="#"> Ayuda </a></li>
+        </ul>
+      </nav>
+      <nav class="site-header__user">
+        <ul>
+          <li><a href="#"> Crea tu cuenta <i class="far fa-id-card"></i></a></li>
+          <li><a href="#"> Ingresar <i class="fas fa-sign-in-alt"></i></a></li>
+          <li><a href="#"> Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
       </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="home-main">
-      <section class="home-main__section-articles">
-        <h2 class="home-main__section-title">Basado en tus ultimas visitas</h2>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-cafetera-moulinex.jpg"
-            alt="Es la imagen de una cafetera"
-          />
+  <main class="home-main">
+    <h2 class="home-main__section-title">Basado en tus ultimas visitas</h2>
+    <section class="home-main__section-articles">
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-cafetera-moulinex.jpg" alt="Es la imagen de una cafetera" />
+        <div class="section-article__price">
           <p>6.770 puntos</p>
           <p>40% OFF</p>
-          <p>Cafetera Moulinex</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-macbook-pro-2019.jpg"
-            alt="Es la imagen de una macbook"
-          />
+        </div>
+        <p>Cafetera Moulinex</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-macbook-pro-2019.jpg" alt="Es la imagen de una macbook" />
+        <div class="section-article__price">
           <p>230.000 puntos</p>
           <p>20% OFF</p>
-          <p>MacBook Pro 2019</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-samsung-galaxy-s10.jpg"
-            alt="Es la imagen de un samsung galaxy s10"
-          />
+        </div>
+        <p>MacBook Pro 2019</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-samsung-galaxy-s10.jpg" alt="Es la imagen de un samsung galaxy s10" />
+        <div class="section-article__price">
           <p>70.500 puntos</p>
           <p>10% OFF</p>
-          <p>Samsung Galaxy S10</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-tv-samsung-smart.jpg"
-            alt="Es la imagen de una tele samsung "
-          />
+        </div>
+        <p>Samsung Galaxy S10</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-tv-samsung-smart.jpg" alt="Es la imagen de una tele samsung " />
+        <div class="section-article__price">
           <p>23.200 puntos</p>
           <p>5% OFF</p>
-          <p>SmartTv Samsung 43"</p>
-        </article>
-      </section>
+        </div>
+        <p>SmartTv Samsung 43"</p>
+      </article>
+    </section>
 
-      <section>
-        <h2>Ofertas</h2>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-cafetera-moulinex.jpg"
-            alt="Es la imagen de una cafetera"
-          />
+    <h2 class="home-main__section-title">Ofertas</h2>
+    <section class="home-main__section-articles">
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-cafetera-moulinex.jpg" alt="Es la imagen de una cafetera" />
+        <div class="section-article__price">
           <p>6.770 puntos</p>
           <p>40% OFF</p>
-          <p>Cafetera Moulinex</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-macbook-pro-2019.jpg"
-            alt="Es la imagen de una macbook"
-          />
+        </div>
+        <p>Cafetera Moulinex</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-macbook-pro-2019.jpg" alt="Es la imagen de una macbook" />
+        <div class="section-article__price">
           <p>230.000 puntos</p>
           <p>20% OFF</p>
-          <p>MacBook Pro 2019</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-samsung-galaxy-s10.jpg"
-            alt="Es la imagen de un samsung galaxy s10"
-          />
+        </div>
+        <p>MacBook Pro 2019</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-samsung-galaxy-s10.jpg" alt="Es la imagen de un samsung galaxy s10" />
+        <div class="section-article__price">
           <p>70.500 puntos</p>
           <p>10% OFF</p>
-          <p>Samsung Galaxy S10</p>
-        </article>
-        <article class="home-main__product">
-          <img
-            width="25%"
-            src="./img/img-tv-samsung-smart.jpg"
-            alt="Es la imagen de una tele samsung "
-          />
+        </div>
+        <p>Samsung Galaxy S10</p>
+      </article>
+      <article class="home-main__product">
+        <img width="25%" src="./img/img-tv-samsung-smart.jpg" alt="Es la imagen de una tele samsung " />
+        <div class="section-article__price">
           <p>23.200 puntos</p>
           <p>5% OFF</p>
-          <p>SmartTv Samsung 43"</p>
-        </article>
-      </section>
-    </main>
-    <footer class="site-footer">
-      <section>
-        <h3 class="site-footer__title"><i class="far fa-credit-card"></i>Pagá con tarjeta o en efectivo</h3>
-        <p>
-          Con nuestra tienda, tienes cuotas sin interés con tarjeta o efectivo
-          en puntos de pago. ¡Y siempre es seguro!
-        </p>
-      </section>
-      <section >
-        <h3 class="site-footer__title"><i class="fas fa-truck"></i>Envío gratis desde 2.500 puntos</h3>
-        
-        <p>
-          Solo por estar registrad@ en nuestra tienda tienes envíos gratis en
-          miles de productos.
-        </p>
-      </section>
-      <section>
-        <h3 class="site-footer__title"><i class="fas fa-shield-alt"></i>Seguridad, de principio a fin</h3>
-        <p>
-          ¿No te gusta? ¡Devuélvelo! En nuestra tienda no hay nada que no puedas
-          hacer, porque estás siempre protegid@.
-        </p>
-      </section>
-    </footer>
-  </body>
+        </div>
+        <p>SmartTv Samsung 43"</p>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <section>
+      <h3 class="site-footer__title"><i class="far fa-credit-card"></i>Pagá con tarjeta o en efectivo</h3>
+      <p>
+        Con nuestra tienda, tienes cuotas sin interés con tarjeta o efectivo
+        en puntos de pago. ¡Y siempre es seguro!
+      </p>
+    </section>
+    <section>
+      <h3 class="site-footer__title"><i class="fas fa-truck"></i>Envío gratis desde 2.500 puntos</h3>
+
+      <p>
+        Solo por estar registrad@ en nuestra tienda tienes envíos gratis en
+        miles de productos.
+      </p>
+    </section>
+    <section>
+      <h3 class="site-footer__title"><i class="fas fa-shield-alt"></i>Seguridad, de principio a fin</h3>
+      <p>
+        ¿No te gusta? ¡Devuélvelo! En nuestra tienda no hay nada que no puedas
+        hacer, porque estás siempre protegid@.
+      </p>
+    </section>
+  </footer>
+</body>
+
 </html>

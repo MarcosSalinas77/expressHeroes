@@ -17,6 +17,11 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
 }
 
 p{
