@@ -7,6 +7,15 @@
   align-items: center;
   width: 300px;
   background-color: white;
+  transition: all ease-in-out 0.3s;
+  border-radius: 5px;
+
+}
+
+.home-main__product:hover {
+  scale: 1.05;
+  transform: translate(0 , -5px);
+  /* transform: rotate(1deg ); */
 }
 
 .home-main__product p:nth-child(2) {

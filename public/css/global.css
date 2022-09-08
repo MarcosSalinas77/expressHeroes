@@ -15,11 +15,21 @@
     --verde: #39b54a;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color: var(--gris-claro);
+    /* transition: all ease-in-out 1s; */
+    
 }
+
+/* body:hover{
+    scale: -1;
+    transform: translate(0 , -5px);
+    transform: rotate(8deg );
+} */
 
 li{
     list-style: none;

@@ -52,76 +52,17 @@
         <section class="form-registro">
             <form action="/">
                 <fieldset>
-                    <legend>Datos personales</legend>
-                    <label for="inp-nombre">Nombre y Apellido</label>
-                    <input type="text" placeholder="Ingresa tu Nombre" id="inp-nombre" required>
-
+                    <legend>Login</legend>
                     <label for="inp-user">Nombre Usuario</label>
                     <input type="text" placeholder="Ingresa tu Usuario" id="inp-user" required>
 
-                    <label for="inp-date">Fecha nacimiento</label>
-                    <input type="date" id="inp-date" required>
+                    <label for="inp-password">Contraseña</label>
+                    <input type="password" placeholder="Ingresa tu Contraseña" id="inp-password" required>
 
-                    <label for="inp-domicilio">Domicilio</label>
-                    <input type="text" placeholder="Ingresa tu Domicilio" id="inp-domicilio" required>
+                  
                 </fieldset>
-
-                <fieldset>
-                    <legend>Perfil de usuario</legend>
-                    <div class="perfil-container">
-                        <div> <label for="inp-vendedor">Vendedor</label>
-                            <input type="radio" id="inp-vendedor" name="r-perfil">
-                        </div>
-                        <div>
-                            <label for="inp-comprador">Comprador</label>
-                            <input type="radio" id="inp-comprador" value="Comprador" name="r-perfil" checked>
-                        </div>
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Categorias de interes</legend>
-                    <div class="categorias-container">
-                        <div><label for="chk-electro">Electro</label>
-                            <input type="checkbox" id="chk-electro">
-                        </div>
-
-                        <div> <label for="chk-moda">Moda</label>
-                            <input type="checkbox" id="chk-moda">
-                        </div>
-
-                        <div> <label for="chk-hogar">Hogar</label>
-                            <input type="checkbox" id="chk-hogar">
-                        </div>
-
-                        <div> <label for="chk-jugeteria">Jugeteria</label>
-                            <input type="checkbox" id="chk-jugeteria">
-                        </div>
-
-                        <div><label for="chk-vida">Vida sana</label>
-                            <input type="checkbox" id="chk-vida">
-                        </div>
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend> Foto de Usuario</legend>
-                    <input type="file">
-                </fieldset>
-
-                <fieldset>
-                    <legend>Contraseña</legend>
-                    <label for="inp-user">Contraseña</label>
-                    <input type="password" placeholder="Ingresa tu password" id="inp-psw" required>
-
-                    <label for="inp-user">Confirmar Contraseña</label>
-                    <input type="password" placeholder="Confirme su password" id="inp-rePsw" required>
-                </fieldset>
-
                 <div class="form-registro__buttons">
-                    <input type="reset" class="btn btn-reset">
-                    <input type="submit" class="btn btn-submit">
-
+                    <input type="submit" class="btn btn-submit" value="Login">
                 </div>
             </form>
         </section>
