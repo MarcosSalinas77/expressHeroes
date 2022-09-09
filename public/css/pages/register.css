@@ -60,21 +60,21 @@
   box-shadow: 2px 2px 10px rgba(166, 166, 166, 0.758);
 }
 
-.btn-submit {
+.btn-submit__register {
   background-color: var(--verde);
 }
 
-.btn-reset {
+.btn-reset__register {
   background-color: var(--gris-oscuro);
   color: white;
 }
 
-.btn-submit:hover {
+.btn-submit__register:hover {
   background-color: rgb(34, 143, 34);
   box-shadow: none;
 }
 
-.btn-reset:hover {
+.btn-reset__register:hover {
   background-color: rgb(60, 60, 60);
   color: white;
   box-shadow: none;

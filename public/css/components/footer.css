@@ -1,12 +1,40 @@
 .site-footer{
+    display: flex;
     text-align: center;
     margin-top: 50px;
     background-color: var(--amarillo);
     padding: 30px;
+    flex-direction: column;
 }
 
 .site-footer i{
     font-size: 2em;
     margin-bottom: 10px;
     padding:0 5px;
+}
+
+.footer-line{
+    margin:0 auto;
+    display: none;
+    background-color: var(--gris-oscuro);
+    border: none;
+    align-self: center;
+}
+
+.site-footer section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media (min-width:768px){
+    .footer-line{
+        display: block;
+    }
+    .site-footer{
+        flex-direction: row;
+    }
+    .site-footer section{
+        gap: 3px;
+    }
 }
