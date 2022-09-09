@@ -1,97 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Fontawesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
     <!-- CSS Style -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-        <div class="header-row">
-            <a href="/" class="site-header__logo">
-                <img src="./img/logo-mercado-liebre.svg" alt="Es el logo de la empresa mercado liebre" />
-            </a>
-            <input type="text" placeholder="Buscar productos, marcas y mas" class="site-header__search" />
-            <p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+      <div class="header-row">
+        <a href="/" class="site-header__logo">
+          <img
+            src="./img/logo-mercado-liebre.svg"
+            alt="Es el logo de la empresa mercado liebre"
+          />
+        </a>
+        <input
+          type="text"
+          placeholder="Buscar productos, marcas y mas"
+          class="site-header__search"
+        />
+        <p>
+          <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta
+          de crédito
+        </p>
+      </div>
+      <div class="header-row-menu">
+        <nav class="site-header__navegation">
+          <ul>
+            <li><a href="#"> Ofertas </a></li>
+            <li><a href="#"> Tiendas Oficiales </a></li>
+            <li><a href="#"> Vender </a></li>
+            <li><a href="#"> Ayuda </a></li>
+          </ul>
+        </nav>
+        <nav class="site-header__user">
+          <ul>
+            <li>
+              <a href="/register">
+                Crea tu cuenta <i class="far fa-id-card"></i
+              ></a>
+            </li>
+            <li>
+              <a href="/login"> Ingresar <i class="fas fa-sign-in-alt"></i></a>
+            </li>
+            <li>
+              <a href="#">
+                Mis Compras <i class="fas fa-shopping-basket"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
         </div>
-        <div class="header-row-menu">
-            <nav class="site-header__navegation">
-                <ul>
-                    <li><a href="#"> Ofertas </a></li>
-                    <li><a href="#"> Tiendas Oficiales </a></li>
-                    <li><a href="#"> Vender </a></li>
-                    <li><a href="#"> Ayuda </a></li>
-                </ul>
-            </nav>
-            <nav class="site-header__user">
-                <ul>
-                    <li><a href="/register"> Crea tu cuenta <i class="far fa-id-card"></i></a></li>
-                    <li><a href="/login"> Ingresar <i class="fas fa-sign-in-alt"></i></a></li>
-                    <li><a href="#"> Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
-                </ul>
-            </nav>
-            <div class="burger-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
+      </div>
     </header>
 
-    <main class="main-registro">
-        <section class="form-registro">
+    <div class="layout">
+      <div class="layout__container">
+        <main class="main-registro">
+          <section class="form-registro">
             <form action="/">
-                <fieldset>
-                    <legend>Login</legend>
-                    <label for="inp-user">Nombre Usuario</label>
-                    <input type="text" placeholder="Ingresa tu Usuario" id="inp-user" required>
+              <fieldset>
+                <legend>Login</legend>
+                <label for="inp-user">Nombre Usuario</label>
+                <input
+                  type="text"
+                  placeholder="Ingresa tu Usuario"
+                  id="inp-user"
+                  required
+                />
 
-                    <label for="inp-password">Contraseña</label>
-                    <input type="password" placeholder="Ingresa tu Contraseña" id="inp-password" required>
-
-                  
-                </fieldset>
-                <div class="form-registro__buttons">
-                    <input type="submit" class="btn btn-submit" value="Login">
-                </div>
+                <label for="inp-password">Contraseña</label>
+                <input
+                  type="password"
+                  placeholder="Ingresa tu Contraseña"
+                  id="inp-password"
+                  required
+                />
+              </fieldset>
+              <div class="form-registro__buttons">
+                <input type="submit" class="btn btn-submit" value="Login" />
+              </div>
             </form>
-        </section>
-    </main>
-
-    <footer class="site-footer">
+          </section>
+        </main>
+      </div>
+      <footer class="site-footer">
         <section>
-            <h3 class="site-footer__title"><i class="far fa-credit-card"></i>Pagá con tarjeta o en efectivo</h3>
-            <p>
-                Con nuestra tienda, tienes cuotas sin interés con tarjeta o efectivo
-                en puntos de pago. ¡Y siempre es seguro!
-            </p>
-        </section>
-        <section>
-            <h3 class="site-footer__title"><i class="fas fa-truck"></i>Envío gratis desde 2.500 puntos</h3>
-
-            <p>
-                Solo por estar registrad@ en nuestra tienda tienes envíos gratis en
-                miles de productos.
-            </p>
+          <h3 class="site-footer__title">
+            <i class="far fa-credit-card"></i>Pagá con tarjeta o en efectivo
+          </h3>
+          <p>
+            Con nuestra tienda, tienes cuotas sin interés con tarjeta o efectivo
+            en puntos de pago. ¡Y siempre es seguro!
+          </p>
         </section>
         <section>
-            <h3 class="site-footer__title"><i class="fas fa-shield-alt"></i>Seguridad, de principio a fin</h3>
-            <p>
-                ¿No te gusta? ¡Devuélvelo! En nuestra tienda no hay nada que no puedas
-                hacer, porque estás siempre protegid@.
-            </p>
-        </section>
-    </footer>
-</body>
+          <h3 class="site-footer__title">
+            <i class="fas fa-truck"></i>Envío gratis desde 2.500 puntos
+          </h3>
 
+          <p>
+            Solo por estar registrad@ en nuestra tienda tienes envíos gratis en
+            miles de productos.
+          </p>
+        </section>
+        <section>
+          <h3 class="site-footer__title">
+            <i class="fas fa-shield-alt"></i>Seguridad, de principio a fin
+          </h3>
+          <p>
+            ¿No te gusta? ¡Devuélvelo! En nuestra tienda no hay nada que no
+            puedas hacer, porque estás siempre protegid@.
+          </p>
+        </section>
+      </footer>
+    </div>
+  </body>
 </html>

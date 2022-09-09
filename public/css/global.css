@@ -16,20 +16,12 @@
 }
 
 
-
 body{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color: var(--gris-claro);
-    /* transition: all ease-in-out 1s; */
     
 }
-
-/* body:hover{
-    scale: -1;
-    transform: translate(0 , -5px);
-    transform: rotate(8deg );
-} */
 
 li{
     list-style: none;
@@ -41,4 +33,14 @@ p{
 
 a{
     text-decoration: none;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.layout__container{
+    flex-grow: 1;
 }
